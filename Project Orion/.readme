@@ -1,0 +1,12 @@
+# Project Orion
+Project Orion is a data science initiative focused on advanced analytics and machine learning. The project aims to deliver actionable insights through robust data pipelines, model development, and visualization tools.
+
+## Requirements
+
+- Python 3.8+
+- Jupyter Notebook
+- pandas, numpy, scikit-learn, matplotlib, seaborn
+
+## License
+
+Currently no license
