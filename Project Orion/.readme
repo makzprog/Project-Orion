@@ -1,12 +1,19 @@
 # Project Orion
-Project Orion is a data science initiative focused on advanced analytics and machine learning. The project aims to deliver actionable insights through robust data pipelines, model development, and visualization tools.
+
+This project is intended to serve as a **personal website** that showcases data science projects, interactive visualizations, and machine learning models. The website will provide an overview of my skills, portfolio, and technical blog posts, making it a comprehensive platform for sharing my work and expertise with others.
+
+## Features
+- Interactive dashboards and visualizations
+- Portfolio of data science and machine learning projects
+- Technical blog posts and tutorials
+- Model deployment and live demos
+- Clean, responsive web design
 
 ## Requirements
-
 - Python 3.8+
 - Jupyter Notebook
 - pandas, numpy, scikit-learn, matplotlib, seaborn
-
+- Flask or Django (for web framework)
+- HTML, CSS, JavaScript (for frontend)
 ## License
-
-Currently no license
+Currently
