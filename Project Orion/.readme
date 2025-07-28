@@ -15,5 +15,6 @@ This project is intended to serve as a **personal website** that showcases data 
 - pandas, numpy, scikit-learn, matplotlib, seaborn
 - Flask or Django (for web framework)
 - HTML, CSS, JavaScript (for frontend)
+
 ## License
 Currently
