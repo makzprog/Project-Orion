@@ -6,3 +6,8 @@ function sayHello() {
 function navigate() {
   alert("Navigate to next site");
 }
+
+
+function placeholder() {
+  alert("used as a placeholdee");
+}
