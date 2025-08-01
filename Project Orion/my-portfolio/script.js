@@ -11,3 +11,11 @@ function navigate() {
 function placeholder() {
   alert("used as a placeholdee");
 }
+
+function placeholder2() {
+  alert("used as a placeholdee");
+}
+
+function placeholder3() {
+  alert("used as a placeholdee");
+}
