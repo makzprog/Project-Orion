@@ -19,3 +19,7 @@ function placeholder2() {
 function placeholder3() {
   alert("used as a placeholdee");
 }
+
+function placeholder4() {
+  alert("used as a placeholdee");
+}
