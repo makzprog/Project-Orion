@@ -27,3 +27,9 @@ function placeholder4() {
 function placeholder4() {
   alert("used as a placeholdee");
 }
+
+
+
+function navigate33434() {
+  alert("Navigate3 to next site");
+}
