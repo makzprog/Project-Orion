@@ -138,3 +138,10 @@ function placeholder4() {
 function navigate33434() {
   alert("Navigate3 to next site");
 }
+
+
+
+
+function navigate33434() {
+  alert("Navigate3 to next site");
+}
