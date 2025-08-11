@@ -63,7 +63,15 @@ function placeholder4() {
   alert("used as a placeholdee");
 }
 
+}
 
+function placeholder4() {
+  alert("used as a placeholdee");
+}}
+
+function placeholder4() {
+  alert("used as a placeholdee");
+}
 
 function navigate33434() {
   alert("Navigate3 to next site");
@@ -107,7 +115,9 @@ function sayHello() {
   alert("Hello from JavaScript!");
 }
 
-
+function sayHello() {
+  alert("Hello from JavaScript!");
+}
 function navigate() {
   alert("Navigate to next site");
 }
@@ -143,5 +153,11 @@ function navigate33434() {
 
 
 function navigate33434() {
+  alert("Navigate3 to next site");
+}
+
+
+
+function navigate334334344() {
   alert("Navigate3 to next site");
 }
