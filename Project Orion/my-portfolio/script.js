@@ -149,10 +149,13 @@ function navigate33434() {
   alert("Navigate3 to next site");
 }
 
+function placeholder4() {
+  alert("used as a placeholdee");
+}
 
 
 
-function navigate33434() {
+function navigate334343434() {
   alert("Navigate3 to next site");
 }
 
