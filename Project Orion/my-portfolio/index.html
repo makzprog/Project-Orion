@@ -4,16 +4,80 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-
-  <!-- Link CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="header" >
+  <div class="header">
     <h1>My Portfolio</h1>
-  <button onclick="navigate()">Go to Next Site</button>
-  <button onclick="sayHello()">Click Me</button>
-  <!-- Link JavaScript -->
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button onclick="navigate()">Go to Next Site</button>
+    <button onclick="sayHello()">Click Me</button>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm a passionate developer with experience in web technologies. I love building creative and efficient solutions.
+    </p>
+    <img src="profile.jpg" alt="Profile Picture" width="150" />
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Project Orion</h3>
+        <p>A data science platform for collaborative research and analysis.</p>
+        <a href="https://github.com/yourusername/project-orion" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>This personal portfolio site showcasing my work and skills.</p>
+        <a href="https://github.com/yourusername/my-portfolio" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <br />
+      <button type="submit">Send</button>
+    </form>
+    <div id="formResponse"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+  </footer>
+
   <script src="script.js"></script>
+  <script>
+    function navigate() {
+      window.location.href = "https://example.com";
+    }
+    function sayHello() {
+      alert("Hello, welcome to my portfolio!");
+    }
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('formResponse').textContent = "Thank you for contacting me!";
+      this.reset();
+    });
+  </script>
 </body>
 </html>
